@@ -1,0 +1,174 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/********************************************************************
+    Custom Styles
+*********************************************************************/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter';
+    font-style: normal;
+    background-color: black;
+}
+
+.container {
+    background: #F4F4F4;
+    width: 550px;
+    height: 730px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.container-head {
+    background: #6943FF;
+    width: 550px;
+    height: 285px;
+}
+
+.container-head h1 {
+    display: inline-block;
+    width: 448px;
+    height: 38px;
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 38px;
+    margin: 33px 0 30px 0;
+    color: #ffffff;
+}
+
+.container-head input {
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    width: 117px;
+    height: 83px;
+    background: inherit;
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 58px;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 25px;
+    font-family: 'Inter';
+}
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+    appearance: none;
+}
+
+.container-head button {
+    background: #ffffff;
+    width: 117px;
+    height: 42px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    padding: 9px 27px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3D3D3D;
+    font-family: 'Inter';
+}
+
+.container-output .grid {
+    width: 500px;
+    height: 108px;
+    margin-top: 23px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* overflow: auto; */
+}
+
+.container-output .grid h2 {
+    width: 346px;
+    height: 25px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 31px;
+    margin-bottom: 9px;
+    color: #5A537B;
+}
+
+.container-output :first-child {
+    margin-top: 36px;
+}
+
+.container-output :last-child {
+    margin-bottom: 36px;
+}
+
+.container-output .grid p {
+    width: 346px;
+    height: 25px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #353535;
+    margin-bottom: 18px;
+    margin-left: auto;
+    margin-right: auto;
+}
